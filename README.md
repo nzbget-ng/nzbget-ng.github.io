@@ -1,2 +1,2 @@
-# nzbget.github.io
-NZBGet Web Site
+# nzbget-ng.github.io
+NZBGet-ng Web Site
