@@ -3,8 +3,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>NZBGet - Download</title>
-<meta name="description" content="NZBGet - Download">
+<title>NZBGet-ng - Download</title>
+<meta name="description" content="NZBGet-ng - Download">
 {% include meta.html %}
 </head>
 
@@ -32,13 +32,13 @@
 	<h4>Version: {{site.data.version.testing-version}}-{{site.data.version.testing-revision}}</h4>
 	<h4>Release Date: {{site.data.version.testing-date-text}}</h4>
 	<h4><a href="/history-latest-testing" onclick="showReleaseNotes(event, '{{site.data.version.testing-version}}-testing-{{site.data.version.testing-revision}}', 'v{{site.data.version.testing-version}}-{{site.data.version.testing-revision}}', '{{site.data.version.testing-date-text}}')">Release Notes</a></h4>
-	<p>Testing releases are recommended for experienced users familiar with NZBGet.</p>
+	<p>Testing releases are recommended for experienced users familiar with NZBGet-ng.</p>
 {% endif %}
 	
 	<h3>Windows</h3>
 	<p><a class="btn btn-outline" href="https://github.com/nzbget-ng/nzbget/releases/download/v{{site.data.version.stable-version}}/nzbget-{{site.data.version.stable-version}}-bin-windows-setup.exe">nzbget-{{site.data.version.stable-version}}-bin-windows-setup.exe</a></p>
 {% if site.data.version.testing-version > site.data.version.stable-version %}
-	<p><a class="btn btn-outline" href="https://github.com/nzbget/nzbget/releases/download/v{{site.data.version.testing-version}}-{{site.data.version.testing-revision}}/nzbget-{{site.data.version.testing-version}}-testing-{{site.data.version.testing-revision}}-bin-windows-setup.exe">nzbget-{{site.data.version.testing-version}}-testing-{{site.data.version.testing-revision}}-bin-windows-setup.exe</a></p>
+	<p><a class="btn btn-outline" href="https://github.com/nzbget-ng/nzbget/releases/download/v{{site.data.version.testing-version}}-{{site.data.version.testing-revision}}/nzbget-{{site.data.version.testing-version}}-testing-{{site.data.version.testing-revision}}-bin-windows-setup.exe">nzbget-{{site.data.version.testing-version}}-testing-{{site.data.version.testing-revision}}-bin-windows-setup.exe</a></p>
 {% endif %}
 	<p>Windows XP and later, 32 or 64 Bit.</p>
 	<p>Manual: <a href="/installation-on-windows">Installation on Windows</a>.</p>
@@ -46,7 +46,7 @@
 	<h3>MacOS</h3>
 	<p><a class="btn btn-outline" href="https://github.com/nzbget-ng/nzbget/releases/download/v{{site.data.version.stable-version}}/nzbget-{{site.data.version.stable-version}}-bin-macos.zip">nzbget-{{site.data.version.stable-version}}-bin-macos.zip</a></p>
 {% if site.data.version.testing-version > site.data.version.stable-version %}
-	<p><a class="btn btn-outline" href="https://github.com/nzbget/nzbget/releases/download/v{{site.data.version.testing-version}}-{{site.data.version.testing-revision}}/nzbget-{{site.data.version.testing-version}}-testing-{{site.data.version.testing-revision}}-bin-macos.zip">nzbget-{{site.data.version.testing-version}}-testing-{{site.data.version.testing-revision}}-bin-macos.zip</a></p>
+	<p><a class="btn btn-outline" href="https://github.com/nzbget-ng/nzbget/releases/download/v{{site.data.version.testing-version}}-{{site.data.version.testing-revision}}/nzbget-{{site.data.version.testing-version}}-testing-{{site.data.version.testing-revision}}-bin-macos.zip">nzbget-{{site.data.version.testing-version}}-testing-{{site.data.version.testing-revision}}-bin-macos.zip</a></p>
 {% endif %}
 	<p>MacOS 10.7 Lion and later, 64 Bit.</p>
 	<p>Manual: <a href="/installation-on-mac">Installation on Mac</a>.</p>
@@ -62,7 +62,7 @@
 	<h3>FreeBSD</h3>
 	<p><a class="btn btn-outline" href="https://github.com/nzbget-ng/nzbget/releases/download/v{{site.data.version.stable-version}}/nzbget-{{site.data.version.stable-version}}-bin-freebsd.run">nzbget-{{site.data.version.stable-version}}-bin-freebsd.run</a></p>
 {% if site.data.version.testing-version > site.data.version.stable-version %}
-	<p><a class="btn btn-outline" href="https://github.com/nzbget/nzbget/releases/download/v{{site.data.version.testing-version}}-{{site.data.version.testing-revision}}/nzbget-{{site.data.version.testing-version}}-testing-{{site.data.version.testing-revision}}-bin-freebsd.run">nzbget-{{site.data.version.testing-version}}-testing-{{site.data.version.testing-revision}}-bin-freebsd.run</a></p>
+	<p><a class="btn btn-outline" href="https://github.com/nzbget-ng/nzbget/releases/download/v{{site.data.version.testing-version}}-{{site.data.version.testing-revision}}/nzbget-{{site.data.version.testing-version}}-testing-{{site.data.version.testing-revision}}-bin-freebsd.run">nzbget-{{site.data.version.testing-version}}-testing-{{site.data.version.testing-revision}}-bin-freebsd.run</a></p>
 {% endif %}
 	<p>FreeBSD 9.1 and later, x86 (64 Bit).</p>
 	<p>Manual: <a href="/installation-on-freebsd">Installation on FreeBSD</a>.</p>
