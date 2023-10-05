@@ -32,7 +32,7 @@ If you want to learn more please read the whole article.
 ### Update 2019
 Modern Intel and ARM processors include hardware support for AES cipher. On such
 processors NZBGet shows much better performance when using AES than RC4. For
-example see this [benchmark](https://github.com/nzbget/nzbget/issues/448#benchmark-tls).
+example see this [benchmark](https://github.com/nzbget-ng/nzbget/issues/448#benchmark-tls).
 
 To use this cipher in NZBGet set option **ServerX.Cipher** to `AES128-SHA` or
 `AES256-SHA`. These cipher strings are for usage with **OpenSSL**. For **GnuTLS** please

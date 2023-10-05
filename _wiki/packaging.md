@@ -14,7 +14,7 @@ There are two main copies of source code in the code repository - **develop** an
 
 Having two branches - one for testing (develop) and another for stable (master) - ensures that code changes made in the development code of the new version do not flow into stable version before they thoroughly tested.
 
-The recommended way of obtaining source code of stable and testing versions is [Download page](download) or [Release archive](https://github.com/nzbget/nzbget/releases).
+The recommended way of obtaining source code of stable and testing versions is [Download page](download) or [Release archive](https://github.com/nzbget-ng/nzbget/releases).
 
 **Summary:** there are three kinds of NZBGet releases:
 - **Stable** - recommended for new users and for users not having much time for possible error handling;
@@ -148,5 +148,5 @@ echo "Starting NZBGet...";
 
 ## Real world examples ##
 Automatic updates are implemented in:
-- Linux version, available via universal Linux installer - [install-update.sh](https://github.com/nzbget/nzbget/blob/develop/linux/install-update.sh);
-- Windows version - [install-update.bat](https://github.com/nzbget/nzbget/blob/develop/windows/install-update.bat).
+- Linux version, available via universal Linux installer - [install-update.sh](https://github.com/nzbget-ng/nzbget/blob/develop/linux/install-update.sh);
+- Windows version - [install-update.bat](https://github.com/nzbget-ng/nzbget/blob/develop/windows/install-update.bat).

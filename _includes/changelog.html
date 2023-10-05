@@ -26,10 +26,10 @@ var ChangeLog = (new function()
 		}
 
 		// correct URLs to old wiki 
-		desc = desc.replace(/\(https:\/\/github.com\/nzbget\/nzbget\/wiki\/(.+)\)/g,
+		desc = desc.replace(/\(https:\/\/github.com\/nzbget(?:-ng)?\/nzbget\/wiki\/(.+)\)/g,
 			function(match, p1) {
 				p1 = p1.toLowerCase().replace(/_/g, '-');
-				return '(https://nzbget.net/' + p1 + ')';
+				return '(https://nzbget-ng.github.io/' + p1 + ')';
 			});
 
 		// show all quoted texts in bold (without quotes)
@@ -42,7 +42,7 @@ var ChangeLog = (new function()
 		desc = desc.replace(/\_/g, '\\_');
 
 		// convert nzbget.net links HTTP->HTTPS
-		desc = desc.replace(/http:\/\/nzbget/g, 'https://nzbget');
+		desc = desc.replace(/http:\/\/(nzbget|nzbget-ng\.github\.io)/g, 'https://nzbget-ng.github.io');
 
 		// format URLs as links
 		desc = desc.replace(/([^\(])(https:\/\/[a-zA-Z_\\\-0-9\/\.]+)/g, '$1[$2]($2)');
@@ -50,8 +50,8 @@ var ChangeLog = (new function()
 		desc = markdown.toHTML(desc);
 
 		// links to GitHub issues
-		desc = desc.replace(/\(#([\d]+)/g, '(<a href="https://github.com/nzbget/nzbget/issues/$1">#$1</a>');
-		desc = desc.replace(/,\s?#([\d]+)/g, ', <a href="https://github.com/nzbget/nzbget/issues/$1">#$1</a>');
+		desc = desc.replace(/\(#([\d]+)/g, '(<a href="https://github.com/nzbget-ng/nzbget/issues/$1">#$1</a>');
+		desc = desc.replace(/,\s?#([\d]+)/g, ', <a href="https://github.com/nzbget-ng/nzbget/issues/$1">#$1</a>');
 
 		return desc;
 	}
@@ -124,7 +124,7 @@ var ChangeLog = (new function()
 		{
 			data = onlyStableReleases(data);
 		}
-    	else if (which === 'testing')
+		else if (which === 'testing')
 		{
 			data = onlyTestingReleasesSinceLatestStabe(data);
 		}

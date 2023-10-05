@@ -10,7 +10,7 @@ NZBGet's [Download page](download) provides installer for FreeBSD which includes
 - Download the installer package from [Download page](download).
 You can download the installer via web-browser or directly on your device with the following command:
  ```
-wget https://nzbget.net/download/nzbget-latest-bin-freebsd.run
+wget https://nzbget-ng.github.io/download/nzbget-latest-bin-freebsd.run
  ```
 
 - If the above command fails use your web-browser to download the installer package, then put it on your device.

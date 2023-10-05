@@ -25,7 +25,7 @@ layout: wiki-index
  - [Quick filter](quick-filter)
  - [Keyboard shortcuts](keyboard_shortcuts)
  - [RSS and duplicate check](rss) - how to automate your downloads with RSS feeds
- - [VideoSort](https://github.com/nzbget/VideoSort) - sorting for downloaded video files
+ - [VideoSort](https://github.com/nzbget-ng/VideoSort) - sorting for downloaded video files
  - [Console mode](console-mode) - about using in terminal
  - [Command line reference](command-line-reference) - detailed documentation for terminal or shell scripts
  - [Performing speed tests](performing-speed-tests) - find out what your hardware is capable of

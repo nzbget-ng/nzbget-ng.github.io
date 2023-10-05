@@ -9,5 +9,5 @@ NZBGet.VersionInfo = {
 	"testing-date": "{{site.data.version.testing-date}}", 
 	"testing-release-notes": "{{site.data.version.testing-release-notes}}",
 	"testing-update-rate": "{{site.data.version.testing-update-rate}}",
-	"devel-release-notes": "https://github.com/nzbget/nzbget/commits/develop"
+	"devel-release-notes": "https://github.com/nzbget-ng/nzbget/commits/develop"
 }

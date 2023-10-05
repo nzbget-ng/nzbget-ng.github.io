@@ -11,7 +11,7 @@ Moreover after the introducing of universal Linux installer in v15 we now offer 
 
 **Starting from version 17.0 NZBGet source code base has been upgraded to C++14.**
 
-That means you need a C++14 compliant compiler to build NZBGet **v17** or newer from sources. Once again (if you forgot) - chances are high that you don't need to compile NZBGet on your own at all. Instead you can download the installer for your platform from [Download page](http://nzbget.net/download) and install NZBGet in a few quick steps.
+That means you need a C++14 compliant compiler to build NZBGet **v17** or newer from sources. Once again (if you forgot) - chances are high that you don't need to compile NZBGet on your own at all. Instead you can download the installer for your platform from [Download page](https://nzbget-ng.github.io/download) and install NZBGet in a few quick steps.
 
 ## Prerequisites for C++ compiler
 If you still want or need to compile NZBGet one of the following compilers (or newer) is required:

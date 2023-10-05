@@ -175,7 +175,7 @@ During execution of the script NZBGet presents a special dialog showing script o
 
 User may close the progress dialog but the script continues running in the background. All messages printed by the script are saved to NZBGet log and are seen in web-interface on Messages tab.
 
-See post-processing script [EMail.py](https://github.com/nzbget/nzbget/blob/develop/scripts/EMail.py) for the reference implementation.
+See post-processing script [EMail.py](https://github.com/nzbget-ng/nzbget/blob/develop/scripts/EMail.py) for the reference implementation.
 
 ## Extension script kinds
 Further reading:
@@ -231,7 +231,7 @@ POSTPROCESS_ERROR=94
 # and call method "postqueue", which returns the list of post-processing job.
 # The first item in the list is current job. This item has a field 'Log',
 # containing an array of log-entries.
-# For more info visit http://nzbget.net/RPC_API_reference
+# For more info visit https://nzbget-ng.github.io/RPC_API_reference
 
 # First we need to know connection info: host, port, username and password of NZBGet server.
 # NZBGet passes all configuration options to post-processing script as

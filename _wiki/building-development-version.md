@@ -7,7 +7,7 @@ redirect_from:
 
 The latest development sources are stored in the git repository on GitHub. Get the latest version from git repository to your computer:
 ```shell
-git clone https://github.com/nzbget/nzbget.git nzbget-git
+git clone https://github.com/nzbget-ng/nzbget.git nzbget-git
 ```
 
 This command creates directory **nzbget-git** in current directory. You can use any other name instead of "nzbget-git".
